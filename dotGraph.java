@@ -47,7 +47,7 @@ void draw() {
     for (int j = 0; j < calories[i].length; j++) {
       int circles = calories[i][j] / 100;
 
-      // Later: choose a colour here using activity index j.
+    
 
       for (int k = 0; k < circles; k++) {
         circle(x, y, circle_size);
